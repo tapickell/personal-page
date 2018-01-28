@@ -1,12 +1,4 @@
 .avatar {
-  margin-top: 1em;
-  margin-right: 1em;
-  position: relative;
-
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-
   -webkit-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
   -moz-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
   box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
@@ -18,14 +10,19 @@ i {
 
 .content {
   margin-left: 50px;
-
 }
 
-#photo {
+.skills-list {
+  font-size: 32px;
 }
 
-#contact {
+.skills-list h2 {
+  text-decoration: underline;
 }
 
-#skills {
+.svg-img {
+  width: 42px;
+  height: 42px;
+  padding: 5px;
+  margin-bottom: 5px;
 }
